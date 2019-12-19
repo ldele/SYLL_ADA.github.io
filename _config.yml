@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: SYLL
+title: Applied Data Analysis | CS-401 (Fall 2019)
 
 # Short description of your site
 description: Data Story for Milestone 3 ADA
@@ -20,7 +20,7 @@ description: Data Story for Milestone 3 ADA
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  More: "aboutme"
   Resources:
     - GITHUB: "https://github.com/youloumbaka/ADA-Project1-SYLL"
     - Chicago Food Inspections: "https://www.kaggle.com/chicago/chicago-food-inspections"
