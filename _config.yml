@@ -10,7 +10,7 @@ description: Data Story for Milestone 3 ADA
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
-# url is the the website domain URL without a trailing slash
+# url is the website domain URL without a trailing slash
 #url: "https://example.com"
 
 # baseurl should be an empty string
@@ -24,7 +24,6 @@ navbar-links:
     - GITHUB: "https://github.com/youloumbaka/ADA-Project1-SYLL"
     - Chicago Food Inspections: "https://www.kaggle.com/chicago/chicago-food-inspections"
     - Chicago Areas: "https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6"
-#  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -51,7 +50,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "/img/the-blues-brothers.png"
+# navbar-img: "/img/the-blues-brothers.png"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/the-blues-brothers.jpeg"
 
@@ -61,39 +60,6 @@ navbar-img: "/img/the-blues-brothers.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Luis de Lima, Stanislas Furrer, Yura Tak, Lucas Délez
-
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-social-network-links:
-  rss: false
-# email: "lucas.delez@epfl.ch"
-# facebook: deanattali
-#  github: ldele
-#  twitter:
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-
-# Select which share links to show in posts
-share-links-active:
-  twitter: false
-  facebook: false
-  linkedin: false
-
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -132,15 +98,8 @@ staticman:
   branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
   endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
   reCaptcha:
-    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
-    # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
-
-# Facebook App ID
-# fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
