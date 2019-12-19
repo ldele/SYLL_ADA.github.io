@@ -22,8 +22,9 @@ description: Data Story for Milestone 3 ADA
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GITHUB: "https://github.com/youloumbaka/ADA-Project1-SYLL"
+    - Chicago Food Inspections: "https://www.kaggle.com/chicago/chicago-food-inspections"
+    - Chicago Areas: "https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6"
 #  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
