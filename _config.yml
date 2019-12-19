@@ -20,7 +20,6 @@ description: Data Story for Milestone 3 ADA
 
 # List of links in the navigation bar
 navbar-links:
-  More: "aboutme"
   Resources:
     - GITHUB: "https://github.com/youloumbaka/ADA-Project1-SYLL"
     - Chicago Food Inspections: "https://www.kaggle.com/chicago/chicago-food-inspections"
@@ -29,7 +28,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+# avatar: "/img/the-blues-brothers.jpeg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -52,9 +51,9 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
+# navbar-img: "/img/the-blues-brothers.jpeg"
 # footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
+page-img: "/img/the-blues-brothers.jpeg"
 
 # --- Footer options --- #
 
@@ -68,7 +67,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
 # email: "lucas.delez@epfl.ch"
 # facebook: deanattali
 #  github: ldele
@@ -157,7 +156,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+#timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -181,7 +180,7 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
-      show-avatar: true
+      show-avatar: false
 
 # Use tags index page and make tags on each post clickable
 link-tags: true

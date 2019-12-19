@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Chicago Food Inspections
+subtitle: Can we predict the next inspection site ?
 use-site-title: true
 ---
 
@@ -70,3 +70,11 @@ use-site-title: true
   {% endif %}
 </ul>
 {% endif %}
+
+Here begins our data story...
+
+## Abstract
+
+## Introduction
+
+## Conclusion
